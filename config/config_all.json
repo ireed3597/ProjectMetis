@@ -1,0 +1,326 @@
+{
+    "ttHH_HHTo4b_5f_LO_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_9_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17wmLHEGS-03470_1_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7", 
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-04017_1_cfg.py" 
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7", 
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-04017_2_cfg.py" 
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7", 
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-03949_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_22", 
+            "SCRAM_ARCH" : "slc6_amd64_gcc700", 
+            "CFG" : "HIG-RunIIFall17NanoAODv7-02462_1_cfg.py" 
+        }
+    },
+    "ttHH_HHToWWGG_5f_LO_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_9_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "ttHH_HHToWWGG_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-04017_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-04017_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-03949_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_22",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-02462_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTauTauGG_5f_LO_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_9_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "ttHH_HHToTauTauGG_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-04017_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-04017_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-03949_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_22",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-02462_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_5f_LO_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_9_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "ttHH_HHToBBGG_GenSim_pset_cfg.py" 
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-04017_1_cfg.py" 
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-04017_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-03949_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_22",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-02462_1_cfg.py" 
+        }
+    },
+    "ZHH_HHTo4b_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_18",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "ZHH_HHTo4b_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07247_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07247_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-07295_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_24_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-04791_1_cfg.py"
+        }
+    },
+    "ZHH_HHToBBGG_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_18",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "ZHH_HHToBBGG_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07247_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07247_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-07295_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_24_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-04791_1_cfg.py"
+        }
+    },
+    "ZHH_HHToWWGG_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_18",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "ZHH_HHToWWGG_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07247_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07247_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-07295_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_24_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-04791_1_cfg.py"
+        }
+    },
+    "ZHH_HHToTauTauGG_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_18",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "ZHH_HHToTauTauGG_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07247_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07247_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-07295_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_24_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-04791_1_cfg.py"
+        }
+    },
+    "WHH_HHTo4b_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_18",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "WHH_HHTo4b_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07239_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07239_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-07287_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_24_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-04774_1_cfg.py"
+        }
+    },
+    "WHH_HHToBBGG_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_18",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "WHH_HHToBBGG_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07239_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07239_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-07287_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_24_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-04774_1_cfg.py"
+        }
+    },
+    "WHH_HHToWWGG_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_18",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "WHH_HHToWWGG_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07239_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07239_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-07287_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_24_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-04774_1_cfg.py"
+        }
+    },
+    "WHH_HHToTauTauGG_CV_1_0_C2V_1_0_C3_1_0_TuneCP5_13TeV-madgraph-pythia8_2017" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_9_3_18",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "WHH_HHToTauTauGG_GenSim_pset_cfg.py"
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07239_1_cfg.py"
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17DRPremix-07239_2_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_9_4_7",
+            "SCRAM_ARCH" : "slc6_amd64_gcc630",
+            "CFG" : "HIG-RunIIFall17MiniAODv2-07287_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_2_24_patch1",
+            "SCRAM_ARCH" : "slc6_amd64_gcc700",
+            "CFG" : "HIG-RunIIFall17NanoAODv7-04774_1_cfg.py"
+        }
+    }
+}

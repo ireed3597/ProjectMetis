@@ -1,6 +1,7 @@
 # Hgg-MC-Generation
 Tools for generating MC -> CMS nanoAOD.
 
+## Generating MC -> nanoAOD
 We'll take an existing ttHH, HH->4b CMS sample
 ```
 /TTHHTo4b_5f_LO_TuneCP5_13TeV_madgraph_pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM
@@ -115,7 +116,7 @@ EVENTS=10000
 # cmsDriver command
 cmsDriver.py  --python_filename HIG-RunIIFall17NanoAODv7-02462_1_cfg.py --eventcontent NANOAODSIM --customise Configuration/DataProcessing/Utils.addMonitoring --datatier NANOAODSIM --fileout file:HIG-RunIIFall17NanoAODv7-02462.root --conditions 102X_mc2017_realistic_v8 --step NANO --filein "dbs:/TTHHTo4b_5f_LO_TuneCP5_13TeV_madgraph_pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM" --era Run2_2017,run2_nanoAOD_94XMiniAODv2 --no_exec --mc -n $EVENTS --nThreads 1 || exit $? ;
 ```
-### Step 2: modify GenSim pset (if desired)
+### Step 2: modify GenSim pset physics content (if desired)
 This MC sample generates ttHH, HH->4b events, but let's say we want to instead generate ttHH, HH->bbgg events.
 To do this, we need to modify the GenSim pset, `HIG-RunIIFall17wmLHEGS-03470_1_cfg.py`.
 
@@ -140,4 +141,52 @@ processParameters = cms.vstring('25:m0 = 125.0',
     'ResonanceDecayFilter:daughters = 5,5,22,22' # require HH->bbgg
 )
 ```
+
+### Step 3: modify pset input/output filenames
+For metis to find the correct files when running the jobs, it's easier if the input/output names of each step are done in a consistent way.
+
+In the LHE/GenSim pset, set the output names as:
+```
+process.RAWSIMoutput = cms.OutputModule("PoolOutputModule",
+   ...
+   fileName = cms.untracked.string('file:GENSIM.root'), # you change this line
+...
+process.LHEoutput = cms.OutputModule("PoolOutputModule",
+   ...
+   fileName = cms.untracked.string('file:GENSIM_inLHE.root'), # you change this line
+```
+
+In the Premix pset, replace the `process.source` lines with:
+```
+process.source = cms.Source("PoolSource",
+    fileNames = cms.untracked.vstring('file:GENSIM.root'),
+    secondaryFileNames = cms.untracked.vstring()
+)
+```
+and change the output file:
+```
+process.PREMIXRAWoutput = cms.OutputModule("PoolOutputModule",
+   ...
+   fileName = cms.untracked.string('file:step1.root'), # you change this line
+``` 
+
+Do the same for the rest of the psets (AOD, miniAOD, nanoAOD). You can name them whatever they like, but make sure they match they are consistent so one step will correctly grab the output of the previous step.
+
+Finally, make sure that the output of the nanoAOD pset matches what metis expects for the final output file name.
+If you have not changed the executable template, this should probably be `output.root`, e.g.
+```
+process.NANOAODSIMoutput = cms.OutputModule("NanoAODOutputModule",
+    ...
+    fileName = cms.untracked.string('file:output.root'),
+``` 
+
+### Step 4: submit jobs with [ProjectMetis](https://github.com/aminnj/ProjectMetis) 
+First, clone and set up ProjectMetis:
+```
+git clone https://github.com/aminnj/ProjectMetis.git
+cd ProjectMetis/
+source setup.sh 
+cd ..
+```
+
 
