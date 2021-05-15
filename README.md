@@ -113,6 +113,7 @@ cd ../..
 
 EVENTS=10000
 
+# NOTE: make sure to replace "NANOEDMOADSIM" with "NANOADOSIM" everywhere you see it in the cmsDriver command. Otherwise, you will not be able to read your nanoAODs properly
 # cmsDriver command
 cmsDriver.py  --python_filename HIG-RunIIFall17NanoAODv7-02462_1_cfg.py --eventcontent NANOAODSIM --customise Configuration/DataProcessing/Utils.addMonitoring --datatier NANOAODSIM --fileout file:HIG-RunIIFall17NanoAODv7-02462.root --conditions 102X_mc2017_realistic_v8 --step NANO --filein "dbs:/TTHHTo4b_5f_LO_TuneCP5_13TeV_madgraph_pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM" --era Run2_2017,run2_nanoAOD_94XMiniAODv2 --no_exec --mc -n $EVENTS --nThreads 1 || exit $? ;
 ```
