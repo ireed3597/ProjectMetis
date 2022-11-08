@@ -5,9 +5,9 @@
 # with command line options: --python_filename HIG-RunIISummer20UL17SIM-01169_1_cfg.py --eventcontent RAWSIM --customise Configuration/DataProcessing/Utils.addMonitoring --datatier GEN-SIM --fileout file:HIG-RunIISummer20UL17SIM-01169.root --conditions 106X_mc2017_realistic_v6 --beamspot Realistic25ns13TeVEarly2017Collision --step SIM --geometry DB:Extended --filein file:HIG-RunIISummer20UL17wmLHEGEN-03413.root--era Run2_2017 --runUnscheduled --no_exec --mc -n 1291 --nThreads 1
 import FWCore.ParameterSet.Config as cms
 
+from Configuration.Eras.Era_Run2_2017_cff import Run2_2017
 
-
-process = cms.Process('SIM')
+process = cms.Process('SIM',Run2_2017)
 
 # import of standard configurations
 process.load('Configuration.StandardSequences.Services_cff')
