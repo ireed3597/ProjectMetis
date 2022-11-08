@@ -1,0 +1,39 @@
+{
+    "TprimeTprime_ttHH_HHtoBBGG_mTp1000_LO_2018" : {
+        "gen" : {
+            "CMSSW" : "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG" : "TprimeTprime_ggbb/HIG-RunIISummer20UL18wmLHEGEN-03457_1_mTp1000_cfg.py" 
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG" : "HIG-RunIISummer20UL18SIM-01221_1_cfg.py" 
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG" : "HIG-RunIISummer20UL18DIGIPremix-01202_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_10_2_16_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL18HLT-01221_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL18RECO-01221_1_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_10_6_20",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG" : "HIG-RunIISummer20UL18MiniAODv2-00478_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL18NanoAODv9-00892_1_cfg.py"
+        }
+    }
+}

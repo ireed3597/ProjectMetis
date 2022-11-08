@@ -26,6 +26,14 @@ step2cfg="step2_CFG_TEMP"
 step2_cmssw="step2_CMSSW_TEMP"
 step2_scram_arch="step2_SCRAM_ARCH_TEMP"
 
+step3cfg="step3_CFG_TEMP"
+step3_cmssw="step3_CMSSW_TEMP"
+step3_scram_arch="step3_SCRAM_ARCH_TEMP"
+
+step4cfg="step4_CFG_TEMP"
+step4_cmssw="step4_CMSSW_TEMP"
+step4_scram_arch="step4_SCRAM_ARCH_TEMP"
+
 minicfg="mini_CFG_TEMP"
 mini_cmssw="mini_CMSSW_TEMP"
 mini_scram_arch="mini_SCRAM_ARCH_TEMP"
@@ -71,7 +79,7 @@ function edit_pset {
     if [[ "$INPUTFILENAMES" != "dummy"* ]]; then
         echo "process.source.fileNames = cms.untracked.vstring([" >> pset.py
         for INPUTFILENAME in $(echo "$INPUTFILENAMES" | sed -n 1'p' | tr ',' '\n'); do
-            INPUTFILENAME=$(echo $INPUTFILENAME | sed 's|^/hadoop/cms||')
+            INPUTFILENAME=$(echo $INPUTFILENAME | sed 's|^/ceph/cms||')
             # INPUTFILENAME="root://xrootd.unl.edu/${INPUTFILENAME}"
             echo "\"${INPUTFILENAME}\"," >> pset.py
         done
@@ -102,24 +110,34 @@ function edit_psets {
     #echo "set_output_name(\"output_GEN.root\")" >> $gencfg
 
     # step1
-    echo "process.maxEvents.input = $nevents" >> $step1cfg
+    echo "process.maxEvents.input = -1" >> $step1cfg
     #echo "process.source.fileNames = cms.untracked.vstring([\"output_GEN.root\"])" >> $step1cfg
     #echo "set_output_name(\"output_STEP1.root\")" >> $step1cfg
 
     # step2
-    echo "process.maxEvents.input = $nevents" >> $step2cfg
+    echo "process.maxEvents.input = -1" >> $step2cfg
     #echo "process.source.fileNames = cms.untracked.vstring([\"output_STEP1.root\"])" >> $step2cfg
     #echo "set_output_name(\"output_STEP2.root\")" >> $step2cfg
 
+    # step3
+    echo "process.maxEvents.input = -1" >> $step3cfg
+    #echo "process.source.fileNames = cms.untracked.vstring([\"output_STEP1.root\"])" >> $step3cfg
+    #echo "set_output_name(\"output_STEP2.root\")" >> $step3cfg
+
+    # step4
+    echo "process.maxEvents.input = -1" >> $step4cfg
+    #echo "process.source.fileNames = cms.untracked.vstring([\"output_STEP1.root\"])" >> $step4cfg
+    #echo "set_output_name(\"output_STEP2.root\")" >> $step4cfg
+
     # mini
-    echo "process.maxEvents.input = $nevents" >> $minicfg
+    echo "process.maxEvents.input = -1" >> $minicfg
     #echo "process.source.fileNames = cms.untracked.vstring([\"output_STEP2.root\"])" >> $minicfg
     #echo "set_output_name(\"output_MINI.root\")" >> $minicfg
 
-    # nano
-    echo "process.maxEvents.input = $nevents" >> $nanocfg
-    #echo "process.source.fileNames = cms.untracked.vstring([\"output_MINI.root\"])" >> $nanocfg
-    #echo "set_output_name(\"output.root\")" >> $nanocfg
+    # # nano
+    echo "process.maxEvents.input = -1" >> $nanocfg
+    # #echo "process.source.fileNames = cms.untracked.vstring([\"output_MINI.root\"])" >> $nanocfg
+    # #echo "set_output_name(\"output.root\")" >> $nanocfg
 
 }
 
@@ -149,7 +167,7 @@ function stageout {
         REMOVE_STATUS=$?
         if [ $REMOVE_STATUS -ne 0 ]; then
             echo "Uhh, gfal-copy crashed and then the gfal-rm also crashed with code $REMOVE_STATUS"
-            echo "You probably have a corrupt file sitting on hadoop now."
+            echo "You probably have a corrupt file sitting on ceph now."
             exit 1
         fi
     fi
@@ -202,7 +220,10 @@ function setup_cmssw {
   export SCRAM_ARCH=$2
   scram p CMSSW $CMSSW
   cd $CMSSW
-  eval $(scramv1 runtime -sh)
+  eval `scramv1 runtime -sh`
+  scramv1 b ProjectRename
+  scram b -j3
+  eval `scramv1 runtime -sh`
   cd -
 }
 
@@ -218,12 +239,18 @@ ls -lrth
 echo -e "\n--- begin running ---\n" #                           <----- section division
 
 chirp ChirpMetisExpectedNevents $EXPECTEDNEVTS
+
+echo "Editing psets with parameters:"
+echo $IFILE
+echo $NEVENTS
 edit_psets $IFILE $NEVENTS
 
 echo "Running the following configs:"
 echo $gencfg
 echo $step1cfg
 echo $step2cfg
+echo $step3cfg
+echo $step4cfg
 echo $minicfg
 echo $nanocfg
 
@@ -238,6 +265,12 @@ cmsRun $step1cfg
 
 setup_cmssw $step2_cmssw $step2_scram_arch
 cmsRun $step2cfg
+
+setup_cmssw $step3_cmssw $step3_scram_arch
+cmsRun $step3cfg
+
+setup_cmssw $step4_cmssw $step4_scram_arch
+cmsRun $step4cfg
 
 setup_cmssw $mini_cmssw $mini_scram_arch
 cmsRun $minicfg
@@ -276,15 +309,20 @@ fi
 echo "time before copy: $(date +%s)"
 chirp ChirpMetisStatus "before_copy"
 
+substr="/ceph/cms"
+new_OUTPUTDIR=${OUTPUTDIR#$substr}
 COPY_SRC="file://`pwd`/${OUTPUTNAME}.root"
-COPY_DEST="gsiftp://gftp.t2.ucsd.edu${OUTPUTDIR}/${OUTPUTNAME}_${IFILE}.root"
+COPY_DEST="davs://redirector.t2.ucsd.edu:1095/${new_OUTPUTDIR}/${OUTPUTNAME}_${IFILE}.root"
 stageout $COPY_SRC $COPY_DEST
+# Copy output
+# env -i X509_USER_PROXY=${X509_USER_PROXY} gfal-copy -p -f -t 4200 --verbose file://`pwd`/nanoaod.root davs://redirector.t2.ucsd.edu:1095/${new_OUTPUTDIR}/${OUTPUTFILENAME}_${INDEX}.root --checksum ADLER32
+
 
 for OTHEROUTPUT in $(echo "$OTHEROUTPUTS" | sed -n 1'p' | tr ',' '\n'); do
     [ -e ${OTHEROUTPUT} ] && {
         NOROOT=$(echo $OTHEROUTPUT | sed 's/\.root//')
         COPY_SRC="file://`pwd`/${NOROOT}.root"
-        COPY_DEST="gsiftp://gftp.t2.ucsd.edu${OUTPUTDIR}/${NOROOT}_${IFILE}.root"
+        COPY_DEST="davs://redirector.t2.ucsd.edu:1095/${new_OUTPUTDIR}/${NOROOT}_${IFILE}.root"
         stageout $COPY_SRC $COPY_DEST
     }
 done

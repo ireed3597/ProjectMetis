@@ -1,3 +1,10 @@
 ProjectMetis/
 *CMSSW*
 psets/scripts/*.py
+executables/condor_exe_*.sh
+local_test/
+used_packages/
+*summary.json
+tasks/
+temp/
+logger_metis.log
