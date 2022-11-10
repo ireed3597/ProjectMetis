@@ -1554,6 +1554,10 @@
         } 
     },
   
+
+
+
+    
     "ttHH_HHToBBGG_kl_0p5_LO_2017" : {
         "gen": {
             "CMSSW": "CMSSW_10_6_28_patch1",
@@ -3106,6 +3110,3124 @@
             "CMSSW" : "CMSSW_10_6_26",
             "SCRAM_ARCH" : "slc7_amd64_gcc700",
             "CFG": "HIG-RunIISummer20UL17NanoAODv9-00797_1_cfg.py"
+        }
+    },
+    
+
+
+
+
+    "ttHH_HHToBBGG_kl_0p5_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_0p5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kl_0p5_c2_1_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_0p5_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kl_2_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kl_3_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kt_2_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kt_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kt_3_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kt_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_m1_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_m1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_1_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_2_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_3_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_4_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_4_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_5_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_6_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_6_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_7_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_7_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kl_0p5_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_0p5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kl_0p5_c2_1_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_0p5_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kl_2_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kl_3_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kt_2_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kt_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kt_3_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kt_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_m1_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_m1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_1_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_2_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_3_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_4_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_4_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_5_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_6_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_6_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_7_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_7_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kl_0p5_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_0p5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kl_0p5_c2_1_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_0p5_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kl_2_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kl_3_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kl_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kt_2_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kt_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kt_3_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_kt_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_m1_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_m1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_1_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_2_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_3_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_4_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_4_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_5_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_6_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_6_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_7_LO_2016" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGEN-03487_1_c2_7_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+
+
+    
+
+    
+    "ttHH_HHToBBGG_kl_0p5_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_0p5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kl_0p5_c2_1_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_0p5_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kl_2_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kl_3_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kt_2_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kt_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_kt_3_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kt_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_m1_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_m1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_1_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_2_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_3_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_4_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_4_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_5_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_6_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_6_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToBBGG_c2_7_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggbb/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_7_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kl_0p5_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_0p5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kl_0p5_c2_1_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_0p5_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kl_2_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kl_3_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kt_2_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kt_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_kt_3_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kt_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_m1_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_m1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_1_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_2_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_3_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_4_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_4_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_5_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_6_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_6_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_c2_7_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggWW/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_7_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kl_0p5_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_0p5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kl_0p5_c2_1_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_0p5_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kl_2_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kl_3_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kl_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kt_2_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kt_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_kt_3_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_kt_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_m1_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_m1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_1_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_1_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_2_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_2_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_3_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_3_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_4_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_4_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_5_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_5_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_6_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_6_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_c2_7_LO_2016APV" : {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG" : "HEFT_ggTauTau/HIG-RunIISummer20UL16wmLHEGENAPV-03182_1_c2_7_cfg.py" 
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
         }
     }
 }

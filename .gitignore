@@ -3,6 +3,7 @@ ProjectMetis/
 psets/scripts/*.py
 executables/condor_exe_*.sh
 local_test/
+*tar.gz
 used_packages/
 *summary.json
 tasks/
