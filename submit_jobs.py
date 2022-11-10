@@ -14,11 +14,12 @@ from metis.StatsParser import StatsParser
 import time
 import os
 import json
+import re
 
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--tag", help = "tag to identify this set of MC", type=str)
-parser.add_argument("--output_name" , help= "name of the final output file", type=str, default= "output.root")
+parser.add_argument("--output_name" , help= "name of the final output file", type=str, default= "nanoaod.root")
 parser.add_argument("--output_directory" , help= "path on ceph to write to", type=str, default= "/ceph/cms/store/user/azecchin")
 parser.add_argument("--config", help = "path to json file containing list of samples and their psets", type=str, default = "config/config_all.json")
 parser.add_argument("--events_total", help = "number of events to produce (per sample)", type=int, default = 1000)
@@ -301,10 +302,14 @@ else:
 with open(args.config, "r") as f_in:
     samples_config = json.load(f_in)
 
-if args.samples == "" or args.samples == "all":
-    samples = samples_config.keys()
-else:
-    samples = args.samples.split(",")
+samples = samples_config.keys()
+
+if args.samples != "" and args.samples != "all":
+    if "," in args.samples: # not so elegant way to split csv lists and regex 
+        samples = args.samples.split(",")
+    else:
+        arg_smpls = re.compile(args.samples)
+        samples = filter(arg_smpls.match,samples)
 
 TEMPLATE = "executables/template.sh"
 def create_executable(tag, sample, config_info):
