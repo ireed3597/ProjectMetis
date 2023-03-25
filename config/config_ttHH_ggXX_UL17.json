@@ -1,0 +1,113 @@
+{
+    "ttHH_HHToBBGG_5f_LO_2017": {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "ggbb_LHEGEN/HIG-RunIISummer20UL17wmLHEGEN-03413_1_cfg.py"
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17SIM-01169_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17DIGIPremix-01169_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_9_4_14_UL_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc630",
+            "CFG": "HIG-RunIISummer20UL17HLT-01169_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17RECO-01169_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_26",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17MiniAODv2-00321_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17NanoAODv9-00797_1_cfg.py"
+        }
+    },
+    "ttHH_HHToWWGG_5f_LO_2017": {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "ggWW_LHEGEN/HIG-RunIISummer20UL17wmLHEGEN-03413_1_cfg.py"
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17SIM-01169_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17DIGIPremix-01169_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_9_4_14_UL_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc630",
+            "CFG": "HIG-RunIISummer20UL17HLT-01169_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17RECO-01169_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_26",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17MiniAODv2-00321_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17NanoAODv9-00797_1_cfg.py"
+        }
+    },
+    "ttHH_HHToTAUTAUGG_5f_LO_2017": {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "ggTauTau_LHEGEN/HIG-RunIISummer20UL17wmLHEGEN-03413_1_cfg.py"
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17SIM-01169_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17DIGIPremix-01169_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_9_4_14_UL_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc630",
+            "CFG": "HIG-RunIISummer20UL17HLT-01169_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17RECO-01169_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_26",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17MiniAODv2-00321_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17NanoAODv9-00797_1_cfg.py"
+        }
+    }
+}
