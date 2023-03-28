@@ -135,6 +135,7 @@ def submit_jobs(output_directory, tag, samples, events_total, events_per_output,
 
         # Loop through samples
         for sample in samples:
+            print ("Working on sample {}".format(sample))
             if args.run_local: continue
             config_info = samples_config[sample]
 
@@ -143,7 +144,7 @@ def submit_jobs(output_directory, tag, samples, events_total, events_per_output,
             if sample in gridpacks.keys():
                 gridpack = gridpacks[sample]
             else: gridpack = ""
-
+            print ("sample {} has this gridpack {}".format(sample,gridpack))
             task = CondorTask(
                     sample = DummySample(
                         N = int(float(events_total) / float(events_per_output)),

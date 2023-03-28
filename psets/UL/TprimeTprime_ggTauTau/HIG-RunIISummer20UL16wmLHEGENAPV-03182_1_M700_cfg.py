@@ -148,7 +148,7 @@ process.generator = cms.EDFilter("Pythia8ConcurrentHadronizerFilter",
 
 
 process.externalLHEProducer = cms.EDProducer("ExternalLHEProducer",
-    args = cms.vstring('/ceph/cms/store/user/azecchin/gridpacks/CentralProductions/Tprime/TprimeTprime_ttHH_M700_slc7_amd64_gcc10_CMSSW_12_4_8_tarball.tar.xz'),
+    args = cms.vstring('/ceph/cms/store/user/azecchin/gridpacks/TprimeTprime_ttHH_M700_slc7_amd64_gcc10_CMSSW_12_4_8_tarball.tar.xz'),
     generateConcurrently = cms.untracked.bool(True),
     nEvents = cms.untracked.uint32(58),
     numberOfParameters = cms.uint32(1),
