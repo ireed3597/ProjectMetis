@@ -1,7 +1,30 @@
 # Hgg-MC-Generation
 Tools for generating MC -> CMS nanoAOD.
+## Production of ttHH samples
 
-## Generating MC -> nanoAOD
+Minimal set of instructions for getting to the submission of private nanoAOD for ttHH analysis
+
+### Step 0: Pull this repo
+That is obvious, make sure you are running the latest version of samples
+
+### Step 1: setup [ProjectMetis](https://github.com/aminnj/ProjectMetis) 
+Clone and set up ProjectMetis:
+```
+git clone https://github.com/aminnj/ProjectMetis.git
+cd ProjectMetis/
+source setup.sh 
+cd ..
+```
+### Step 2: Submit jobs:
+You can submit jobs with: 
+```
+ python submit_jobs.py --tag <pick_a_tag_Name> --config config/config_ttHH_TprimeTprime_UL17_lowMass.json --output_name nanoaod.root --events_total 100000 --events_per_job 400
+```
+The effects of the options are explained running ```submit_jobs --help ```
+
+For Tprime samples 100000 events per-mass-point per-channel per-year are recommended (submit with ```-events_total 50000```  for 2016, as will run both pre and post VFP).
+
+## Practical example on how to prepare/tweak/test with MC -> nanoAOD workflow
 We'll take an existing ttHH, HH->4b CMS sample
 ```
 /TTHHTo4b_5f_LO_TuneCP5_13TeV_madgraph_pythia8/RunIIFall17MiniAODv2-PU2017_12Apr2018_94X_mc2017_realistic_v14-v1/MINIAODSIM
