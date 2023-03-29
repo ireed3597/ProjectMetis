@@ -22,7 +22,9 @@ You can submit jobs with:
 ```
 The effects of the options are explained running ```submit_jobs --help ```
 
-For Tprime samples 100000 events per-mass-point per-channel per-year are recommended (submit with ```-events_total 50000```  for 2016, as will run both pre and post VFP).
+For Tprime samples 100000 events per-mass-point per-channel per-year are recommended (submit with ```-events_total 50000```  for 2016, as it will run both pre and post VFP). 
+400 events per job results in jobs running for ~4 hours. 
+```config_ttHH_TprimeTprime_UL17_lowMass.json``` and ```config_ttHH_TprimeTprime_UL17_lowMass.json```  contain configurations for the 2016 and 2017 mass points that need resubmission.
 
 ## Practical example on how to prepare/tweak/test with MC -> nanoAOD workflow
 We'll take an existing ttHH, HH->4b CMS sample
