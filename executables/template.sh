@@ -38,9 +38,9 @@ minicfg="mini_CFG_TEMP"
 mini_cmssw="mini_CMSSW_TEMP"
 mini_scram_arch="mini_SCRAM_ARCH_TEMP"
 
-nanocfg="nano_CFG_TEMP"
-nano_cmssw="nano_CMSSW_TEMP"
-nano_scram_arch="nano_SCRAM_ARCH_TEMP"
+# nanocfg="nano_CFG_TEMP"
+# nano_cmssw="nano_CMSSW_TEMP"
+# nano_scram_arch="nano_SCRAM_ARCH_TEMP"
 
 # Make sure OUTPUTNAME doesn't have .root since we add it manually
 OUTPUTNAME=$(echo $OUTPUTNAME | sed 's/\.root//')
@@ -103,7 +103,7 @@ function edit_psets {
     # gensim
     echo "process.RandomNumberGeneratorService.externalLHEProducer.initialSeed = $seed" >> $gencfg
     #echo "process.externalLHEProducer.args = [\"$gridpack\"]" >> $gencfg
-    echo "process.externalLHEProducer.nEvents = $nevents" >> $gencfg
+    # echo "process.externalLHEProducer.nEvents = $nevents" >> $gencfg #SHERPA GEN
     echo "process.maxEvents.input = $nevents" >> $gencfg
     echo "process.source.firstLuminosityBlock = cms.untracked.uint32($seed)" >> $gencfg
 
@@ -132,12 +132,12 @@ function edit_psets {
     # mini
     echo "process.maxEvents.input = -1" >> $minicfg
     #echo "process.source.fileNames = cms.untracked.vstring([\"output_STEP2.root\"])" >> $minicfg
-    #echo "set_output_name(\"output_MINI.root\")" >> $minicfg
+    echo "process.MINIAODSIMoutput.fileName=\"miniaod.root\"" >> $minicfg
 
     # # nano
-    echo "process.maxEvents.input = -1" >> $nanocfg
-    # #echo "process.source.fileNames = cms.untracked.vstring([\"output_MINI.root\"])" >> $nanocfg
-    # #echo "set_output_name(\"output.root\")" >> $nanocfg
+    # echo "process.maxEvents.input = -1" >> $nanocfg
+    # # #echo "process.source.fileNames = cms.untracked.vstring([\"output_MINI.root\"])" >> $nanocfg
+    # # #echo "set_output_name(\"output.root\")" >> $nanocfg
 
 }
 
@@ -252,7 +252,7 @@ echo $step2cfg
 echo $step3cfg
 echo $step4cfg
 echo $minicfg
-echo $nanocfg
+# echo $nanocfg
 
 chirp ChirpMetisStatus "before_cmsRun"
 
@@ -275,8 +275,8 @@ cmsRun $step4cfg
 setup_cmssw $mini_cmssw $mini_scram_arch
 cmsRun $minicfg
 
-setup_cmssw $nano_cmssw $nano_scram_arch
-cmsRun $nanocfg
+# setup_cmssw $nano_cmssw $nano_scram_arch
+# cmsRun $nanocfg
 
 CMSRUN_STATUS=$?
 

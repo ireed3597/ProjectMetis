@@ -1,5 +1,12 @@
 # Privately produced gridpacks locations
 gridpacks={
+
+    #Diphoton_mgg40to80
+    "DiPhotonJetsBox_MGG-40to80_13TeV-sherpa_2016":"/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/sherpa/V2.2.5/sherpa_13TeV_3j_Mgg40-80-13000_MASTER/v1/sherpa_sherpa_13TeV_gamgam_3j_loop_Mgg40-80_MASTER.tgz",
+    "DiPhotonJetsBox_MGG-40to80_13TeV-sherpa_2016APV":"/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/sherpa/V2.2.5/sherpa_13TeV_3j_Mgg40-80-13000_MASTER/v1/sherpa_sherpa_13TeV_gamgam_3j_loop_Mgg40-80_MASTER.tgz",
+    "DiPhotonJetsBox_MGG-40to80_13TeV-sherpa_2017":"/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/sherpa/V2.2.5/sherpa_13TeV_3j_Mgg40-80-13000_MASTER/v1/sherpa_sherpa_13TeV_gamgam_3j_loop_Mgg40-80_MASTER.tgz",
+    "DiPhotonJetsBox_MGG-40to80_13TeV-sherpa_2018" :"/cvmfs/cms.cern.ch/phys_generator/gridpacks/2017/13TeV/sherpa/V2.2.5/sherpa_13TeV_3j_Mgg40-80-13000_MASTER/v1/sherpa_sherpa_13TeV_gamgam_3j_loop_Mgg40-80_MASTER.tgz",
+
     #Tprime
     "TprimeTprime_ttHH_HHtoBBGG_mTp1000_LO_2018": "/cvmfs/cms.cern.ch/phys_generator/gridpacks/slc6_amd64_gcc481/13TeV/madgraph/V5_2.3.3/TpTpTotHtH/TpTpTotHtH_M1000_tarball.tar.xz", #maybe you don't need this
     

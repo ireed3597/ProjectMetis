@@ -93,7 +93,7 @@ def create_executable(tag, sample, config_info):
     with open(executable, "w") as f_out:
         for line in lines:
             #STEPS: "gen", "step1", "step2", "step3", "step4", "mini", "nano"
-            for step in ["gen", "step1", "step2", "step3", "step4", "mini", "nano"]: 
+            for step in ["gen", "step1", "step2", "step3", "step4", "mini"]: 
                 for item in ["CFG", "CMSSW", "SCRAM_ARCH"]:
                     name = "%s_%s_TEMP" % (step, item)
                     if name in line:
@@ -149,7 +149,7 @@ def submit_jobs(output_directory, tag, samples, events_total, events_per_output,
                     sample = DummySample(
                         N = int(float(events_total) / float(events_per_output)),
                         nevents = events_total,
-                        dataset = "/" + sample + "_NANO"
+                        dataset = "/" + sample + "_MINIv2"
                     ),
                     tag = tag,
                     special_dir = output_directory,
