@@ -20,7 +20,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--tag", help = "tag to identify this set of MC", type=str)
 parser.add_argument("--output_name" , help= "name of the final output file", type=str, default= "nanoaod.root")
-parser.add_argument("--output_directory" , help= "path on ceph to write to", type=str, default= "/ceph/cms/store/user/azecchin")
+parser.add_argument("--output_directory" , help= "path on ceph to write to", type=str, default= "/ceph/cms/store/user/iareed")
 parser.add_argument("--config", help = "path to json file containing list of samples and their psets", type=str, default = "config/config_all.json")
 parser.add_argument("--events_total", help = "number of events to produce (per sample)", type=int, default = 1000)
 parser.add_argument("--events_per_job", help = "number of generated events per job", type=int, default = 200)
