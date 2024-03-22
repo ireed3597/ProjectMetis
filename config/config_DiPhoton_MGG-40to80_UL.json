@@ -1,0 +1,150 @@
+{
+    "DiPhotonJetsBox_MGG-40to80_13TeV-sherpa_2016": {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "DiPhoton_MGG-40to80/HIG-RunIISummer19UL16GEN-00010_1_cfg.py"
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIM-01181_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremix-01176_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLT-01181_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECO-01181_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODv2-00913_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODv9-00678_1_cfg.py"
+        }
+    },
+    "DiPhotonJetsBox_MGG-40to80_13TeV-sherpa_2016APV": {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "DiPhoton_MGG-40to80/HIG-RunIISummer19UL16GENAPV-00008_1_cfg.py"
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16SIMAPV-00895_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16DIGIPremixAPV-00874_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_8_0_33_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc530",
+            "CFG": "HIG-RunIISummer20UL16HLTAPV-00895_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16RECOAPV-00895_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_25",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16MiniAODAPVv2-00193_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL16NanoAODAPVv9-00193_1_cfg.py"
+        }
+    },
+    "DiPhotonJetsBox_MGG-40to80_13TeV-sherpa_2017": {
+        "gen": {
+            "CMSSW": "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "DiPhoton_MGG-40to80/HIG-RunIISummer19UL17GEN-00008_1_cfg.py"
+        },
+        "step1": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17SIM-01169_1_cfg.py"
+        },
+        "step2": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17DIGIPremix-01169_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_9_4_14_UL_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc630",
+            "CFG": "HIG-RunIISummer20UL17HLT-01169_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17RECO-01169_1_cfg.py"
+        },
+        "mini": {
+            "CMSSW": "CMSSW_10_6_26",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17MiniAODv2-00321_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL17NanoAODv9-00797_1_cfg.py"
+        }
+    },
+    "DiPhotonJetsBox_MGG-40to80_13TeV-sherpa_2018": {
+        "gen" : {
+            "CMSSW" : "CMSSW_10_6_28_patch1",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG" : "DiPhoton_MGG-40to80/HIG-RunIISummer19UL18GEN-00004_1_cfg.py" 
+        },
+        "step1" : {
+            "CMSSW" : "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG" : "HIG-RunIISummer20UL18SIM-01221_1_cfg.py" 
+        },
+        "step2" : {
+            "CMSSW" : "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG" : "HIG-RunIISummer20UL18DIGIPremix-01202_1_cfg.py"
+        },
+        "step3": {
+            "CMSSW": "CMSSW_10_2_16_UL",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL18HLT-01221_1_cfg.py"
+        },
+        "step4": {
+            "CMSSW": "CMSSW_10_6_17_patch1",
+            "SCRAM_ARCH": "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL18RECO-01221_1_cfg.py"
+        },
+        "mini" : {
+            "CMSSW" : "CMSSW_10_6_20",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG" : "HIG-RunIISummer20UL18MiniAODv2-00478_1_cfg.py"
+        },
+        "nano" : {
+            "CMSSW" : "CMSSW_10_6_26",
+            "SCRAM_ARCH" : "slc7_amd64_gcc700",
+            "CFG": "HIG-RunIISummer20UL18NanoAODv9-00892_1_cfg.py"
+        }
+    }
+}

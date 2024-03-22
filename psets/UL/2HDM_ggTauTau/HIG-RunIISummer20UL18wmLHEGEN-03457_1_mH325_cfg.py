@@ -87,12 +87,12 @@ process.generator = cms.EDFilter("Pythia8ConcurrentHadronizerFilter",
         processParameters = cms.vstring(
             '25:m0 = 125.0', 
             '25:onMode = off', 
-            '25:onIfMatch = 5 -5', 
+            '25:onIfMatch = 15 -15', 
             '25:onIfMatch = 22 22', 
             'ResonanceDecayFilter:filter = on', 
             'ResonanceDecayFilter:exclusive = on', 
             'ResonanceDecayFilter:mothers = 25', 
-            'ResonanceDecayFilter:daughters = 5,5,22,22'
+            'ResonanceDecayFilter:daughters = 15,15,22,22'
         ),
         pythia8CP5Settings = cms.vstring(
             'Tune:pp 14', 
@@ -148,9 +148,8 @@ process.generator = cms.EDFilter("Pythia8ConcurrentHadronizerFilter",
 
 
 process.externalLHEProducer = cms.EDProducer("ExternalLHEProducer",
-    # args = cms.vstring('/ceph/cms/store/user/azecchin/gridpacks/ttHH_2HDMtII_mH300_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
-    args = cms.vstring('/ceph/cms/store/user/azecchin/gridpacks/ttHH_2HDM_mH300_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
-    generateConcurrently = cms.untracked.bool(True),
+    args = cms.vstring('/ceph/cms/store/user/azecchin/gridpacks/ttHH_2HDM_mH325_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),    
+	generateConcurrently = cms.untracked.bool(True),
     nEvents = cms.untracked.uint32(5000),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),

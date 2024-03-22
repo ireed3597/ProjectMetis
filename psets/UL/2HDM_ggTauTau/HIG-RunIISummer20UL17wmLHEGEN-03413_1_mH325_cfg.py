@@ -2,12 +2,12 @@
 # using: 
 # Revision: 1.19 
 # Source: /local/reps/CMSSW/CMSSW/Configuration/Applications/python/ConfigBuilder.py,v 
-# with command line options: Configuration/GenProduction/python/HIG-RunIISummer20UL18wmLHEGEN-03457-fragment.py --python_filename HIG-RunIISummer20UL18wmLHEGEN-03457_1_cfg.py --eventcontent RAWSIM,LHE --customise Configuration/DataProcessing/Utils.addMonitoring --datatier GEN,LHE --fileout file:HIG-RunIISummer20UL18wmLHEGEN-03457.root --conditions 106X_upgrade2018_realistic_v4 --beamspot Realistic25ns13TeVEarly2018Collision --step LHE,GEN --geometry DB:Extended --era Run2_2018 --no_exec --mc -n 58
+# with command line options: Configuration/GenProduction/python/HIG-RunIISummer20UL17wmLHEGEN-03413-fragment.py --python_filename HIG-RunIISummer20UL17wmLHEGEN-03413_1_cfg.py --eventcontent RAWSIM,LHE --customise Configuration/DataProcessing/Utils.addMonitoring --datatier GEN,LHE --fileout file:HIG-RunIISummer20UL17wmLHEGEN-03413.root --conditions 106X_mc2017_realistic_v6 --beamspot Realistic25ns13TeVEarly2017Collision --step LHE,GEN --geometry DB:Extended --era Run2_2017 --no_exec --mc -n 58
 import FWCore.ParameterSet.Config as cms
 
-from Configuration.Eras.Era_Run2_2018_cff import Run2_2018
+from Configuration.Eras.Era_Run2_2017_cff import Run2_2017
 
-process = cms.Process('GEN',Run2_2018)
+process = cms.Process('GEN',Run2_2017)
 
 # import of standard configurations
 process.load('Configuration.StandardSequences.Services_cff')
@@ -18,13 +18,13 @@ process.load('SimGeneral.MixingModule.mixNoPU_cfi')
 process.load('Configuration.StandardSequences.GeometryRecoDB_cff')
 process.load('Configuration.StandardSequences.MagneticField_cff')
 process.load('Configuration.StandardSequences.Generator_cff')
-process.load('IOMC.EventVertexGenerators.VtxSmearedRealistic25ns13TeVEarly2018Collision_cfi')
+process.load('IOMC.EventVertexGenerators.VtxSmearedRealistic25ns13TeVEarly2017Collision_cfi')
 process.load('GeneratorInterface.Core.genFilterSummary_cff')
 process.load('Configuration.StandardSequences.EndOfProcess_cff')
 process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
 
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(5000)
+    input = cms.untracked.int32(58)
 )
 
 # Input source
@@ -36,7 +36,7 @@ process.options = cms.untracked.PSet(
 
 # Production Info
 process.configurationMetadata = cms.untracked.PSet(
-    annotation = cms.untracked.string('Configuration/GenProduction/python/HIG-RunIISummer20UL18wmLHEGEN-03457-fragment.py nevts:5000'),
+    annotation = cms.untracked.string('Configuration/GenProduction/python/HIG-RunIISummer20UL17wmLHEGEN-03413-fragment.py nevts:58'),
     name = cms.untracked.string('Applications'),
     version = cms.untracked.string('$Revision: 1.19 $')
 )
@@ -54,7 +54,7 @@ process.RAWSIMoutput = cms.OutputModule("PoolOutputModule",
         filterName = cms.untracked.string('')
     ),
     eventAutoFlushCompressedSize = cms.untracked.int32(20971520),
-    fileName = cms.untracked.string('file:HIG-RunIISummer20UL18wmLHEGEN-03457.root'),
+    fileName = cms.untracked.string('file:HIG-RunIISummer20UL17wmLHEGEN-03413.root'),
     outputCommands = process.RAWSIMEventContent.outputCommands,
     splitLevel = cms.untracked.int32(0)
 )
@@ -64,7 +64,7 @@ process.LHEoutput = cms.OutputModule("PoolOutputModule",
         dataTier = cms.untracked.string('LHE'),
         filterName = cms.untracked.string('')
     ),
-    fileName = cms.untracked.string('file:HIG-RunIISummer20UL18wmLHEGEN-03457_inLHE.root'),
+    fileName = cms.untracked.string('file:HIG-RunIISummer20UL17wmLHEGEN-03413_inLHE.root'),
     outputCommands = process.LHEEventContent.outputCommands,
     splitLevel = cms.untracked.int32(0)
 )
@@ -74,7 +74,7 @@ process.LHEoutput = cms.OutputModule("PoolOutputModule",
 # Other statements
 process.genstepfilter.triggerConditions=cms.vstring("generation_step")
 from Configuration.AlCa.GlobalTag import GlobalTag
-process.GlobalTag = GlobalTag(process.GlobalTag, '106X_upgrade2018_realistic_v4', '')
+process.GlobalTag = GlobalTag(process.GlobalTag, '106X_mc2017_realistic_v6', '')
 
 process.generator = cms.EDFilter("Pythia8ConcurrentHadronizerFilter",
     PythiaParameters = cms.PSet(
@@ -87,12 +87,12 @@ process.generator = cms.EDFilter("Pythia8ConcurrentHadronizerFilter",
         processParameters = cms.vstring(
             '25:m0 = 125.0', 
             '25:onMode = off', 
-            '25:onIfMatch = 5 -5', 
+            '25:onIfMatch = 15 -15', 
             '25:onIfMatch = 22 22', 
             'ResonanceDecayFilter:filter = on', 
             'ResonanceDecayFilter:exclusive = on', 
             'ResonanceDecayFilter:mothers = 25', 
-            'ResonanceDecayFilter:daughters = 5,5,22,22'
+            'ResonanceDecayFilter:daughters = 15,15,22,22'
         ),
         pythia8CP5Settings = cms.vstring(
             'Tune:pp 14', 
@@ -148,10 +148,9 @@ process.generator = cms.EDFilter("Pythia8ConcurrentHadronizerFilter",
 
 
 process.externalLHEProducer = cms.EDProducer("ExternalLHEProducer",
-    # args = cms.vstring('/ceph/cms/store/user/azecchin/gridpacks/ttHH_2HDMtII_mH300_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
-    args = cms.vstring('/ceph/cms/store/user/azecchin/gridpacks/ttHH_2HDM_mH300_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),
+    args = cms.vstring('/ceph/cms/store/user/azecchin/gridpacks/ttHH_2HDM_mH325_slc7_amd64_gcc700_CMSSW_10_6_19_tarball.tar.xz'),     
     generateConcurrently = cms.untracked.bool(True),
-    nEvents = cms.untracked.uint32(5000),
+    nEvents = cms.untracked.uint32(58),
     numberOfParameters = cms.uint32(1),
     outputFile = cms.string('cmsgrid_final.lhe'),
     scriptName = cms.FileInPath('GeneratorInterface/LHEInterface/data/run_generic_tarball_cvmfs.sh')
